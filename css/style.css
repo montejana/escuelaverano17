@@ -55,22 +55,16 @@ p{
 	transition: all 1s ease;
 }
 
-div.modal-body .container {
-	width: 100%;
-	padding: 0px;
+.seccion { 
+	padding: 120px 0 0px 0;
 }
 
 /* =Home
 -------------------------------------------------------------- */
 
 .cabecera{
-	margin: 300px 0px 150px 0px;
+	margin: 300px 0px 60px 0px;
 	background-color: 
-}
-
-.escuela{
-	margin: 80px 0px 40px 0px;
-	background-color:
 }
 
 /* =Cursos
@@ -95,7 +89,7 @@ div.modal-body .container {
    	cursor: pointer;
 }
 
-.reticula { padding: 0px 0 0px 0; }
+.reticula { padding: 0px; }
 
 .reticula ul.nav a {
 	color: #bdbdbd;
@@ -297,10 +291,6 @@ a.boton-solido:focus, a.boton-solido:hover{
 .btn-primary:hover {
     color: #fff;
     font-size: 18px;
-}
-
-.contact { 
-	padding:60px 0 60px 0;
 }
 
 .contact-info {
@@ -630,7 +620,10 @@ ul.nav a:hover {
 	padding: 5px 5px 5px 5px;
 }
 
-
+div.modal-body .container {
+	width: 100%;
+	padding: 0px;
+}
 
 .footer-piscina{
 	background-image: url("../base.svg");
@@ -698,9 +691,6 @@ div.modal-body h4{
     .services-icon-holder { width:60px; height:60px; margin-bottom:10px; }
     .services-icon { font-size:26px; line-height:2.1 !important; padding-bottom: 7px; }
     .services .tab-pane { padding-top:25px !important; }
-    .contact { padding: 60px 0 60px 0; }
-    .contact .page-title { padding-bottom: 15px; }
-    .contact-info-email { padding-bottom: 25px; }
     .page-title-2 { padding-bottom: 0; }
     .carousel-h1 { font-size:24px; }
 }
@@ -742,7 +732,6 @@ div.modal-body h4{
 	.services .nav-tabs, .nav-pills { text-align:center; }
 	.services .tab-pane { padding-top: 0; }
 	.services .nav li.active:after { display: none; }
-	.contact-info { padding-bottom:2px; }
 	.copyright { text-align: center; }
 	.made-with-love { text-align: center; }
 	.navbar-nav { margin: 7.5px 0 32px; } 
@@ -762,7 +751,6 @@ div.modal-body h4{
 }
 /* Portrait tablets and small desktops */
 @media (min-width:768px) {
-	.reticula { padding-bottom:25px; }
 	.cta p { margin:25px 0 25px 0; }
 	.contact-info { padding-bottom:2px; }
 }
@@ -771,7 +759,6 @@ div.modal-body h4{
 @media (min-width:992px) {
 	.reticula { padding:60px 0 60px 0; }
 	.cta p { margin:25px 0 25px 0; }
-	.contact-info { padding-bottom:70px; }
 }
 /* Large desktops and laptops */
 @media (min-width:1500px) {
