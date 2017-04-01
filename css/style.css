@@ -55,6 +55,11 @@ p{
 	transition: all 1s ease;
 }
 
+div.modal-body .container {
+	width: 100%;
+	padding: 0px;
+}
+
 /* =Home
 -------------------------------------------------------------- */
 
