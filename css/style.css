@@ -662,6 +662,10 @@ div.modal-body h4{
     font-size: 1.2em;
 }
 
+.modal-body {
+	padding: 0px 30px;
+}
+
 /* =Media Queries
 -------------------------------------------------------------- */
 /* Phones and down */
