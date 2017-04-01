@@ -24,7 +24,7 @@ h1,h2,h3{
 	font-family: 'Montserrat', sans-serif;
 	text-transform: none;
     letter-spacing: 0;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 h1 {
@@ -70,6 +70,25 @@ p{
 
 /* =Cursos
 -------------------------------------------------------------- */
+.reticula ul.nav a {
+	color: #bdbdbd;
+	border-radius: 0;
+}
+
+.reticula ul.nav a:hover {
+	color: #272727;
+}
+
+.nav-pills {
+    text-align: center;
+}
+
+.nav-pills > li {
+    float: none;
+    display: inline-block;
+    padding: 0 15px 0 15px;
+   	cursor: pointer;
+}
 
 .reticula { padding: 0px 0 0px 0; }
 
@@ -151,6 +170,35 @@ span.reticula-hover span {
 	margin: 50px 0px 0px 0px;
 }
 
+.filter.active p{
+    font-weight: 600;
+    border-bottom: solid 3px;
+}
+
+.navbar .nav .active a{
+	font-weight: 600;
+    border-bottom: solid 3px;
+}
+
+.nav>li>a {
+    padding: 0px;
+}
+
+.nav>li{
+	padding: 0px 15px;
+}
+
+.navbar-nav>li>a{
+	padding-bottom: 0px;
+}
+
+.navbar ul.nav a { 
+	color: #fff;
+	height: 63px;
+	background: transparent;
+}
+
+
 /* =Precios
 -------------------------------------------------------------- */
 
@@ -186,36 +234,39 @@ p.precio {
 
 /* =Botones
 -------------------------------------------------------------- */
-
-.bolt-button-send {
-	font-size: 18px;
-	background-color: #45b6f4;
-	padding: 20px 40px;
-	margin: 30px 0px 30px 0px;
-	text-align: center;
-	max-width: 300px;
-}
-
-.bolt-button-send:hover, .bolt-button-send:focus, .bolt-button-send:link{
-	background-color: transparent;
-	border: 2px solid #45b6f4;
+a:link, a:visited {
+	text-decoration: none;
+	font-family: 'Pt sans', sans-serif;
 	color: #45b6f4;
-	-webkit-transition: color 0.5s ease;
-	-moz-transition: color 0.5s ease;
-	-o-transition: color 0.5s ease;
-	transition: color 0.5s ease;
-	margin: 30px 0px 26px 0px;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+	font-family: 'Pt sans', sans-serif;
+	color: #45b6f4;
 }
 
-.bolt-button-send a{
+a.boton-solido:link, a.boton-solido:visited {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
-	text-decoration: none;
-
+    font-size: 1.2em;
+    letter-spacing: 0.02em;
+	background-color: #45b6f4;
+    padding: 20px 25%;
+    text-align: center;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
 }
 
-.bolt-button-send:hover a, .bolt-button-send:focus a, .bolt-button-send:link a{
+a.boton-solido:focus, a.boton-solido:hover{
 	color: #45b6f4;
-	text-decoration: none;
+	background-color: transparent;
+	border: solid 2px #45b6f4;
+}
+.boton-contenedor {
+	margin: 40px 0px;
 }
 
 
@@ -229,7 +280,9 @@ p.precio {
 }
 
 .input-group-btn:last-child>.btn{
-	font-family: "PT sans";
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+    letter-spacing: 0.02em;
     border-radius: 0;
     background: #45b6f4;
     border-color: transparent;
@@ -238,10 +291,12 @@ p.precio {
 
 .btn-primary:hover {
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
 }
 
-.contact { padding:60px 0 60px 0; }
+.contact { 
+	padding:60px 0 60px 0;
+}
 
 .contact-info {
 	text-align: center;
@@ -265,6 +320,10 @@ p.precio {
 	font-size: 12px;
 	line-height: 2;
 	height: 45px;
+}
+
+.caja-newsletter {
+	z-index: 0;
 }
 
 textarea.form-control {
@@ -320,6 +379,10 @@ textarea.form-control {
 	text-align: center;
 }
 
+h2.footer-info {
+	padding-top: 20px;
+}
+
 #footer a, #footer img, #footer h2, #footer p{
 	text-align: center;
 	color: #fff;
@@ -359,6 +422,7 @@ a:active,a:focus { outline: none; }
 .no-padding { padding: 0 !important; }
 .navoffset { padding-top:100px; }
 
+
 /* =Navigation
 -------------------------------------------------------------- */
 
@@ -380,12 +444,6 @@ a:active,a:focus { outline: none; }
 	padding: 0px 15px 0px 15px;
 }
 
-.navbar ul.nav a { 
-	color: #fff;
-	height: 50px;
-	background: transparent;
-}
-
 ul.nav a:hover { 
 	color: #fff;
 	background-color: transparent;
@@ -404,13 +462,14 @@ ul.nav a:hover {
     background-color: transparent;
 }
 
-.navbar .nav li.active:after { 
+/*.navbar .nav li.active:after { 
     content: "\f1ac";
     font-family: Ionicons;
     font-size: 32px;
     text-align: center;
     color: #fff;
-}
+}*/
+
 
 .navbar-nav li a {
     line-height: 100px;
@@ -703,3 +762,5 @@ ul.nav a:hover {
 	min-height: 460px;
 	}
 }
+
+

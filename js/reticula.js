@@ -1,6 +1,6 @@
 // run mixitup
 $(function(){
-  $('#myPortfolio').mixitup({
+  $('#miReticula').mixitup({
     targetSelector: '.item',
     transitionSpeed: 600
   });
