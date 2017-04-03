@@ -382,7 +382,7 @@ a:hover, a:focus {
 	color: #45b6f4;
 }
 
-a.boton-solido:link, a.boton-solido:visited {
+a.boton-solido:link, a.boton-solido:visited, a.boton-solido:focus{
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
@@ -397,7 +397,7 @@ a.boton-solido:link, a.boton-solido:visited {
     transition: color 0.5s ease;
 }
 
-a.boton-solido:focus, a.boton-solido:hover{
+a.boton-solido:hover{
 	color: #45b6f4;
 	background-color: transparent;
 	border: solid 2px #45b6f4;
