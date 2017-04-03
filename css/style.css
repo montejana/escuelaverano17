@@ -45,7 +45,6 @@ h3{
 
 p{
 	font-size: 1em;
-	margin: 0px 0px 20px 0px;
 }
 
 .container {
@@ -166,7 +165,7 @@ span.reticula-hover span {
 }
 
 .filtro{
-	margin: 50px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
 
 .filter.active p{
@@ -224,11 +223,6 @@ span.reticula-hover span {
 p.precio {
 	font-weight: 700;
 	font-size: 4em;
-}
-
-.precios-contenedor{
-	margin-top: 50px;
-	margin-bottom: 50px;
 }
 
 /* =Botones
@@ -392,6 +386,7 @@ h2.footer-info {
 #footer {
 	padding: 40px 0 30px 0;
 	background-color: #333; 
+	margin-top: 120px;
 }
 
 .creditos {
@@ -556,7 +551,6 @@ ul.nav a:hover {
 .nav-pills {
 	font-size: 14px;
 	font-weight: 400;
-	margin-bottom: 50px;
 	font-weight: 300;
 	display: inline-block; 
 }
@@ -664,7 +658,7 @@ div.modal-body h4{
 /* Phones and down */
 @media (max-width: 480px) {
     .summary { padding:60px 0 60px 0; }
-    .reticula { padding:70px 0 0 0; }
+    .reticula { padding: 0; }
     span.reticula-hover {
 		color: #8e8e8e;
 		/*width: 100%;
@@ -708,7 +702,6 @@ div.modal-body h4{
     .nav-main .logo-icon { font-size:33px; line-height: .9 !important; }
     .toggle-icon { font-size:22px; line-height:1.6 !important; }
 	.navbar .nav li.active:after { display:none; }
-	.reticula { padding-bottom:15px; }
 	span.reticula-hover {
 		color: #8e8e8e;
 		text-align: center;
@@ -757,7 +750,6 @@ div.modal-body h4{
 
 /* Portrait tablets and medium desktops */
 @media (min-width:992px) {
-	.reticula { padding:60px 0 60px 0; }
 	.cta p { margin:25px 0 25px 0; }
 }
 /* Large desktops and laptops */
