@@ -331,6 +331,11 @@ li.filter p{
 	margin: 0px;
 }
 
+.filtro{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
 
 /* =Precios
 -------------------------------------------------------------- */
