@@ -2,8 +2,8 @@
 -------------------------------------------------------------- */
 
 body {
-	background-color:#fff;
-	color: #555;
+	background-color:#45b6f4;
+	color: #fff;
 	font-size: 16px;
 	line-height: 130%;
 	font-family: "PT Sans", arial, sans-serif;
@@ -211,8 +211,19 @@ ul.nav a:hover {
 -------------------------------------------------------------- */
 
 .cabecera{
-	margin: 300px 0px 60px 0px;
-	background-color: 
+	
+}
+
+.cabecera-left{
+		margin: 200px 0px 120px 0px;
+	}
+.cabecera-right{
+	background-image: url(../img/bg/01.svg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 100%;
+	height: 580px;
+	margin: 0px 0px 120px 0px;
 }
 
 /* =Cursos
@@ -285,7 +296,7 @@ span.reticula-hover {
     position: absolute;
     top: 180px;
     bottom: 10px;
-    opacity: 0.9;
+    opacity: 0.95;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;
     -o-transition: opacity 500ms;
@@ -354,10 +365,10 @@ li.filter p{
 	text-align: center;
 	padding: 0px 30px 0px 30px;
 	font: normal 14px "Open Sans", arial, sans-serif;
-	color: #555;
+	color: #1b2335;
 	margin: 10px;
 	padding: 20px;
-	background-color: #ccc;
+	background-color: #fff;
 }
 
 p.precio {
@@ -374,12 +385,12 @@ p.precio {
 a:link, a:visited {
 	text-decoration: none;
 	font-family: 'Pt sans', sans-serif;
-	color: #45b6f4;
+	color: #3268e6;
 }
 a:hover, a:focus {
 	text-decoration: underline;
 	font-family: 'Pt sans', sans-serif;
-	color: #45b6f4;
+	color: #3268e6;
 }
 
 a.boton-solido:link, a.boton-solido:visited, a.boton-solido:focus{
@@ -388,7 +399,7 @@ a.boton-solido:link, a.boton-solido:visited, a.boton-solido:focus{
 	color: #fff;
     font-size: 1.2em;
     letter-spacing: 0.02em;
-	background-color: #45b6f4;
+	background-color: #fa5847;
     padding: 20px 25%;
     text-align: center;
     -webkit-transition: color 0.5s ease;
@@ -398,9 +409,9 @@ a.boton-solido:link, a.boton-solido:visited, a.boton-solido:focus{
 }
 
 a.boton-solido:hover{
-	color: #45b6f4;
+	color: #fa5847;
 	background-color: transparent;
-	border: solid 2px #45b6f4;
+	border: solid 2px #fa5847;
 }
 .boton-contenedor {
 	margin: 40px 0px;
@@ -410,6 +421,18 @@ a.boton-solido:hover{
 
 /* =Contacto
 -------------------------------------------------------------- */
+
+.contacto-left{
+		margin: 120px 0px 0px 0px;
+	}
+.contacto-right{
+	background-image: url(../img/bg/02.svg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 100%;
+	height: 530px;
+	margin: 0px 0px 0px 0px;
+}
 
 .input-group .form-control:first-child{
 	border-radius: 0;
@@ -421,7 +444,7 @@ a.boton-solido:hover{
 	font-size: 18px;
     letter-spacing: 0.02em;
     border-radius: 0;
-    background: #45b6f4;
+    background: #fa5847;
     border-color: transparent;
     padding: 0px 40px 0px 40px;
 }
@@ -465,7 +488,7 @@ textarea.form-control {
 }
 
 .form-control:focus, .form-control:focus + span .btn{
-	border-color:#45b6f4;
+	border-color:#fa5847;
     box-shadow:none;
     -webkit-box-shadow: none;
     -webkit-appearance: none;
@@ -529,8 +552,8 @@ h2.footer-info {
 
 #footer {
 	padding: 40px 0 30px 0;
-	background-color: #333; 
-	margin-top: 120px;
+	background-color: #1b2335; 
+	margin-top: 0px;
 }
 
 .creditos {
@@ -643,10 +666,14 @@ div.modal-body h4{
 -------------------------------------------------------------- */
 /* Phones and down */
 @media (max-width: 480px) {
-	.cabecera { margin-top: 90px; }
+	.contacto-right {
+		background-position: center bottom;
+		background-size: 140%;
+		height: 550px;
+		margin: 0px 0px 0px 0px;
+	}
 	.seccion { padding-top: 40px; }
 	.filtro { padding-top: 30px; padding-bottom: 30px;}
-	#footer { margin-top: 90px; }
 	.footer-piscina { bottom: 500px; }
 	a.boton-solido:link, a.boton-solido:visited {
     padding: 20px 18%;
@@ -689,9 +716,18 @@ div.modal-body h4{
     .services .tab-pane { padding-top:25px !important; }
     .page-title-2 { padding-bottom: 0; }
     .carousel-h1 { font-size:24px; }
+    .cabecera-left {
+		margin: 0px 0px 0px 0px;
+	}
+	.cabecera-right {
+		background-position: center;
+		background-size: 80%;
+		height: 400px;
+		margin: 0px 0px 0px 0px;
+	}
 }
-/* Landscape phones and portrait tablets */
-@media (max-width:767px) {
+/* Landscape phones and portrait tablets and down*/
+@media (max-width: 767px) {
 	body { font-size:16px; line-height:27px; }
 	.logo-icon-holder { width:30px; height:30px; }
 	.hero { background-size:cover; background-position:top center!important; }
@@ -734,28 +770,33 @@ div.modal-body h4{
 	.carousel-fixed { padding: 60px 0 60px 0; }
 	.mt30-sm { margin-top:30px; }
 	.navoffset { padding-top:60px; }
-	#animacion2{
-		display: none;
-	}
-	#animacion4{
-		display: block;
-	}
-	#trigger-animacion1{
-	min-height: 250px;
-	}
-}
-/* Portrait tablets and small desktops */
-@media (min-width:768px) {
 	.cta p { margin:25px 0 25px 0; }
 	.contact-info { padding-bottom:2px; }
 }
-
+/* Tablets grandes and down */
+@media (max-width: 992px) {
+	.cabecera-left {
+		margin: 0px 0px 0px 0px;
+	}
+	.cabecera-right {
+		background-position: center;
+		background-size: 80%;
+		height: 520px;
+		margin: 0px 0px 0px 0px;
+	}
+	.contacto-right {
+		background-position: center bottom;
+		background-size: 80%;
+		height: 550px;
+		margin: 0px 0px 0px 0px;
+	}
+}
 /* Portrait tablets and medium desktops */
-@media (min-width:992px) {
+@media (min-width: 992px) {
 	.cta p { margin:25px 0 25px 0; }
 }
 /* Large desktops and laptops */
-@media (min-width:1500px) {
+@media (min-width: 1500px) {
 	.cta p { margin:6px 0 6px 0; } 
 	.contact-info { padding-bottom: 70px; }
 	#trigger-animacion1{
