@@ -7,7 +7,7 @@ body {
 	font-size: 16px;
 	line-height: 130%;
 	font-family: "PT Sans", arial, sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	height: 100% !important;
 	text-align: left;
 }
@@ -215,7 +215,7 @@ ul.nav a:hover {
 }
 
 .cabecera-left{
-		margin: 200px 0px 120px 0px;
+		margin: 175px 0px 120px 0px;
 	}
 .cabecera-right{
 	background-image: url(../img/bg/01.svg);
@@ -666,10 +666,19 @@ div.modal-body h4{
 -------------------------------------------------------------- */
 /* Phones and down */
 @media (max-width: 480px) {
+	.cabecera-left{
+		margin: 40px 0px 40px 0px;
+		}
+	.cabecera-right{
+		background-position: center;
+		background-size: 110%;
+		height: 281px;
+		margin: 0px 0px 40px 0px;
+	}
 	.contacto-right {
 		background-position: center bottom;
-		background-size: 140%;
-		height: 550px;
+		background-size: 181%;
+		height: 541px;
 		margin: 0px 0px 0px 0px;
 	}
 	.seccion { padding-top: 40px; }
@@ -716,15 +725,6 @@ div.modal-body h4{
     .services .tab-pane { padding-top:25px !important; }
     .page-title-2 { padding-bottom: 0; }
     .carousel-h1 { font-size:24px; }
-    .cabecera-left {
-		margin: 0px 0px 0px 0px;
-	}
-	.cabecera-right {
-		background-position: center;
-		background-size: 80%;
-		height: 400px;
-		margin: 0px 0px 0px 0px;
-	}
 }
 /* Landscape phones and portrait tablets and down*/
 @media (max-width: 767px) {
@@ -775,21 +775,7 @@ div.modal-body h4{
 }
 /* Tablets grandes and down */
 @media (max-width: 992px) {
-	.cabecera-left {
-		margin: 0px 0px 0px 0px;
-	}
-	.cabecera-right {
-		background-position: center;
-		background-size: 80%;
-		height: 520px;
-		margin: 0px 0px 0px 0px;
-	}
-	.contacto-right {
-		background-position: center bottom;
-		background-size: 80%;
-		height: 550px;
-		margin: 0px 0px 0px 0px;
-	}
+
 }
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) {
