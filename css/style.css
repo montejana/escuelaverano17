@@ -663,6 +663,7 @@ div.modal-body h4{
 @media (max-width: 990px) {
 	.contacto-left{
 		margin: 0px 0px 0px 0px;
+		padding-top: 120px;
 	}
 	.cabecera-left {
 		margin: 175px 0px 72px 0px;
@@ -756,6 +757,7 @@ div.modal-body h4{
 /* Phones and down */
 @media (max-width: 480px) {
 	.seccion { padding-top: 40px; }
+	.contacto-left { padding-top: 40px; }
 	.filtro { padding-top: 30px; padding-bottom: 30px;}
 	a.boton-solido:link, a.boton-solido:visited {
 	    padding: 20px 18%;
