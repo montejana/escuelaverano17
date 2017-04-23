@@ -623,18 +623,14 @@ a:active,a:focus { outline: none; }
 	padding: 5px 5px 5px 5px;
 }
 
+.modal-body {
+	color: #1b2335;
+	background-color: #fff;
+}
+
 div.modal-body .container {
 	width: 100%;
 	padding: 0px;
-}
-
-.footer-piscina{
-	background-image: url("../base.svg");
-	background-repeat: no-repeat;
-	background-position: bottom;
-	height: 100%;
-    position: relative;
-    bottom: 550px;
 }
 
 .hero-cursos{
@@ -659,12 +655,15 @@ div.modal-body h4{
 }
 
 .modal-body {
-	padding: 0px 30px;
+	padding: 22px 30px;
 }
 
 /* =Media Queries
 -------------------------------------------------------------- */
 @media (max-width: 990px) {
+	.contacto-left{
+		margin: 0px 0px 0px 0px;
+	}
 	.cabecera-left {
 		margin: 175px 0px 72px 0px;
 	}
@@ -758,7 +757,6 @@ div.modal-body h4{
 @media (max-width: 480px) {
 	.seccion { padding-top: 40px; }
 	.filtro { padding-top: 30px; padding-bottom: 30px;}
-	.footer-piscina { bottom: 500px; }
 	a.boton-solido:link, a.boton-solido:visited {
 	    padding: 20px 18%;
 	    text-align: center;
