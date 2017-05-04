@@ -254,6 +254,9 @@ ul.nav a:hover {
 
 /* =Cursos
 -------------------------------------------------------------- */
+.item{
+	display: none;
+}
 .reticula ul.nav a {
 	color: #bdbdbd;
 	border-radius: 0;
