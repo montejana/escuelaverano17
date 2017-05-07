@@ -254,6 +254,9 @@ ul.nav a:hover {
 
 /* =Cursos
 -------------------------------------------------------------- */
+.cursos-padding {
+	padding: 0 15px 0 15px;
+}
 .item{
 	display: none;
 }
@@ -285,8 +288,6 @@ ul.nav a:hover {
 	background-color: transparent;
 	color: #272727;
 }
-
-.reticula { padding: 0px; }
 
 .reticula ul.nav a {
 	color: #bdbdbd;
@@ -374,6 +375,19 @@ li.filter p{
 .filtro{
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+.tabla-color-00 {
+	background-color: #d3dee2;
+	width: 25%;
+}
+.tabla-color-01 {
+	background-color: #f9e23a;
+	width: 25%;
+}
+.tabla-color-02 {
+	background-color: #3ee9af;
+	width: 25%;
 }
 
 
@@ -777,6 +791,12 @@ div.modal-body h4{
 		background-size: 140%;
 		height: 530px;
 		margin: 0px 0px 0px 0px;
+	}
+	.reticula-info {
+		font: normal 0px "Montserrat", arial, sans-serif;
+	}
+	.reticula-titulo {
+		font: normal 12px "Montserrat", arial, sans-serif; 
 	}
 }
 @media (max-width: 376px) {
