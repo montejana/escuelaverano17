@@ -1000,6 +1000,7 @@ div.modal-body h4{
 	.mt30-sm { margin-top:30px; }
 	.navoffset { padding-top:60px; }
 	.contact-info { padding-bottom:2px; }
+	
 }
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) {
